@@ -4,6 +4,9 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+        <link rel="shortcut icon" href="{{ asset('images/favicon.ico') }}" type="image/x-icon">
+        <link rel="stylesheet" href="{{ asset('css/main.css') }}">
         <title>@yield('page-title')</title>
         @yield('meta-description')
         @vite('resources/css/app.css')
@@ -17,19 +20,19 @@
                 <div class="">
                     <a href="#">
                         <div class="lg:col-span-1">
-                            <img class="w-14 lg:w-24 lg:ml-0" src="{{ asset('images/bukarng.jpg') }}" alt="Bukar Ng logo">
+                            <img class="w-14 lg:w-24 lg:ml-0 rounded" src="{{ asset('images/bukarng.jpg') }}" alt="Bukar Ng logo">
                         </div>
                     </a>
                 </div>
             </div>
             <div class="lg:col-span-4 hidden lg:block">
                 <nav class="lg:flex justify-between list-none uppercase font-medium text-white">
-                    <li class="py-1 hover:text-green-600"><a href="#">Home</a></li>
-                    <li class="py-1 hover:text-green-600"><a href="#">About Us</a></li>
-                    <li class="py-1 hover:text-green-600"><a href="#">Information Technology</a></li>
-                    <li class="py-1 hover:text-green-600"><a href="#">Import & Export</a></li>
-                    <li class="py-1 hover:text-green-600"><a href="#">AgriBusiness</a></li>
-                    <li class="py-1 hover:text-green-600"><a href="#">Contact Us</a></li>
+                    <li class="py-1 hover:text-blue-400"><a href="#">Home</a></li>
+                    <li class="py-1 hover:text-blue-400"><a href="#">About Us</a></li>
+                    <li class="py-1 hover:text-blue-400"><a href="#">Information Technology</a></li>
+                    <li class="py-1 hover:text-blue-400"><a href="#">Import & Export</a></li>
+                    <li class="py-1 hover:text-blue-400"><a href="#">AgriBusiness</a></li>
+                    <li class="py-1 hover:text-blue-400"><a href="#">Contact Us</a></li>
                 </nav>
             </div>
         </div>
@@ -109,7 +112,7 @@
             <div id="footer" class=" bg-blue-700 py-12 px-8 lg:px-24 lg:grid grid-cols-5 gap-8 text-white">
                 <div class="col-span-2">
                     <div>
-                        <img class="w-28 mx-auto lg:mx-0 mb-6" src="{{ asset('images/bukarng.jpg') }}" alt="Bukar Ng Ltd">
+                        <img class="w-28 mx-auto lg:mx-0 mb-6 rounded" src="{{ asset('images/bukarng.jpg') }}" alt="Bukar Ng Ltd">
                         <h1 class="text-3xl font-bold mb-4">Office Address</h1>
                         <p class="py-1 text-left lg:w-2/3 w-full">
                             No. 33 Tukuntawa Quarters, Off Zoo Road, Kano State.
@@ -127,34 +130,34 @@
                     <nav class="list-none text-white">
                         <div class="lg:grid grid-cols-2 gap-3">
                             <div>
-                                <li class="py-1 hover:text-gray-800">
+                                <li class="py-1 hover:text-blue-400">
                                 <a class="flex items-center py-1" href="/">
                                     <span>Home</span>
                                 </a>
                                 </li>
-                                <li class="py-1 hover:text-gray-800">
+                                <li class="py-1 hover:text-blue-400">
                                     <a class="flex items-center py-1" href="#">
                                         <span>About Us</span>
                                     </a>
                                 </li>
-                                <li class="py-1 hover:text-gray-800">
+                                <li class="py-1 hover:text-blue-400">
                                     <a class="flex items-center py-1" href="#">
                                         <span>Information Technology</span>
                                     </a>
                                 </li>
-                                <li class="py-1 hover:text-gray-800">
+                                <li class="py-1 hover:text-blue-400">
                                     <a class="flex items-center py-1" href="#">
                                         <span>Import & Export</span>
                                     </a>
                                 </li>
                             </div>
                             <div>
-                                <li class="py-1 hover:text-gray-800">
+                                <li class="py-1 hover:text-blue-400">
                                     <a class="flex items-center py-1" href="#">
                                         <span>AgriBusiness</span>
                                     </a>
                                 </li>
-                                <li class="py-1 hover:text-gray-800">
+                                <li class="py-1 hover:text-blue-400">
                                     <a class="flex items-center py-1" href="#">
                                         <span>Contact Us</span>
                                     </a>
@@ -167,25 +170,25 @@
                     <div>
                         <h1 class="text-3xl font-bold mb-4">Follow Us</h1>
                         <nav class="list-none text-white">
-                            <li class="py-1 hover:text-gray-800">
+                            <li class="py-1 hover:text-blue-400">
                                 <a class="flex items-center py-1" href="#">
                                     <span><i class="fa-brands fa-twitter text-xl"></i></span> &nbsp;&nbsp;
                                     <span>Twitter</span>
                                 </a>
                             </li>
-                            <li class="py-1 hover:text-gray-800">
+                            <li class="py-1 hover:text-blue-400">
                                 <a class="flex items-center py-1" href="#">
                                     <span><i class="fa-brands fa-facebook text-xl"></i></span> &nbsp;&nbsp;
                                     <span>Facebook</span>
                                 </a>
                             </li>
-                            <li class="py-1 hover:text-gray-800">
+                            <li class="py-1 hover:text-blue-400">
                                 <a class="flex items-center py-1" href="#">
                                     <span><i class="fa-brands fa-instagram text-xl"></i></span> &nbsp;&nbsp;
                                     <span>Instagram</span>
                                 </a>
                             </li>
-                            <li class="py-1 hover:text-gray-800">
+                            <li class="py-1 hover:text-blue-400">
                                 <a class="flex items-center py-1" href="#">
                                     <span><i class="fa-brands fa-whatsapp text-xl"></i></span> &nbsp;&nbsp;
                                     <span>WhatsApp</span>
