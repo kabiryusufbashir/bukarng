@@ -12,7 +12,7 @@
         @vite('resources/css/app.css')
     </head>
     <body>
-    <div id="navDesktop" class="z-40 fixed bg-blue-700 w-full lg:grid grid-cols-5 gap-3 shadow lg:px-24 px-8 py-4 flex justify-between items-center">
+        <div id="navDesktop" class="z-40 fixed bg-gray-800 w-full lg:grid grid-cols-5 gap-3 shadow lg:px-24 px-8 py-5 flex justify-between items-center">
             <div class="flex justify-between w-full items-center">
                 <div id="menu" class="lg:hidden cursor-pointer lg:ml-auto">
                     <svg class="w-10 h-10" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
@@ -20,7 +20,7 @@
                 <div class="">
                     <a href="#">
                         <div class="lg:col-span-1">
-                            <img class="w-14 lg:w-24 lg:ml-0 rounded" src="{{ asset('images/bukarng.jpg') }}" alt="Bukar Ng logo">
+                            <img class="w-14 lg:w-12 lg:ml-0 rounded-full" src="{{ asset('images/bukarng.png') }}" alt="Bukar Ng logo">
                         </div>
                     </a>
                 </div>
@@ -107,12 +107,17 @@
             </div>
         </div>
         <!-- End of Navigation Bar  -->
-        @yield('contents')
+        <!-- Body Content  -->
+        <div class="relative top-20">
+            @yield('body-content')
+        </div>
+        <!-- End of Body Content  -->
+        <!-- Footer  -->
         <div class="relative top-24">
-            <div id="footer" class=" bg-blue-700 py-12 px-8 lg:px-24 lg:grid grid-cols-5 gap-8 text-white">
+            <div id="footer" class=" bg-gray-500 py-12 px-8 lg:px-24 lg:grid grid-cols-5 gap-8 text-white">
                 <div class="col-span-2">
                     <div>
-                        <img class="w-28 mx-auto lg:mx-0 mb-6 rounded" src="{{ asset('images/bukarng.jpg') }}" alt="Bukar Ng Ltd">
+                        <img class="w-28 mx-auto lg:mx-0 mb-6 rounded" src="{{ asset('images/bukarng.png') }}" alt="Bukar Ng Ltd">
                         <h1 class="text-3xl font-bold mb-4">Office Address</h1>
                         <p class="py-1 text-left lg:w-2/3 w-full">
                             No. 33 Tukuntawa Quarters, Off Zoo Road, Kano State.
@@ -198,7 +203,7 @@
                     </div>
                 </div>
             </div>
-            <div class="py-7 text-center sm:text-sm">
+            <div class="py-7 text-center sm:text-sm bg-gray-800 text-white">
                 <footer>
                     Designed & Developed by Bitcags<br>
                     Bukar Ng Ltg Copyright © 2019-@php echo date('Y') @endphp All Rights Reserved 
