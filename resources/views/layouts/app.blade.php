@@ -12,15 +12,15 @@
         @vite('resources/css/app.css')
     </head>
     <body>
-        <div id="navDesktop" class="z-40 fixed bg-gray-800 w-full lg:grid grid-cols-5 gap-3 shadow lg:px-24 px-8 py-5 flex justify-between items-center">
+        <div id="navDesktop" class="z-40 fixed bg-gray-800 w-full lg:grid grid-cols-5 gap-3 shadow lg:px-24 px-8 py-7 flex justify-between items-center">
             <div class="flex justify-between w-full items-center">
                 <div id="menu" class="lg:hidden cursor-pointer lg:ml-auto">
-                    <svg class="w-5 h-5" fill="white" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+                    <svg class="w-7 h-7" fill="white" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
                 </div>
                 <div class="">
                     <a href="#">
                         <div class="lg:col-span-1">
-                            <img class="w-7 lg:w-12 lg:ml-0 rounded-full" src="{{ asset('images/bukarng.png') }}" alt="Bukar Ng logo">
+                            <img class="w-9 lg:w-12 lg:ml-0 rounded-full" src="{{ asset('images/bukarng.png') }}" alt="Bukar Ng logo">
                         </div>
                     </a>
                 </div>
@@ -188,7 +188,7 @@
                 </div>
             </div>
             <div class="py-7 text-center sm:text-sm bg-gray-800 text-white">
-                <footer>
+                <footer class="text-sm">
                     Designed & Developed by Bitcags<br>
                     Bukar Ng Ltg Copyright © @php echo date('Y') @endphp All Rights Reserved 
                 </footer>

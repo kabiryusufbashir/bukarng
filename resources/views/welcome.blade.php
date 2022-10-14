@@ -7,10 +7,17 @@
 @section('body-content')
     <!-- Banner -->
     <div>
-        <img class="object-cover w-full" src="{{ asset('images/bg-2.jpg') }}" alt="Background 1">
+        <img class="object-cover w-full h-screen" src="{{ asset('images/bg-2.jpg') }}" alt="Background 1">
+        <div class="absolute lg:top-64 top-52">
+            <div class="text-center lg:w-2/3 mx-auto text-white lg:text-3xl text-xl font-extrabold">
+                <p>
+                    M Bukar Nig Ltd is a General merchandize company with vast knowledge in Information Technology, Contracts, Import and Export, AgricBusiness, etc
+                </p>
+            </div>
+        </div>
     </div>
     <!-- Body contents  -->
-    <div class="pt-8 pb-5">
+    <div class="pt-8 pb-5 text-justify">
         <!-- About Us  -->
         <div id="about-us" class="lg:px-24 px-8 mt-8">
             <!-- logo  -->
@@ -35,7 +42,7 @@
             <div class="text-center text-2xl font-medium py-6">Information Technology</div>
             <div class="lg:px-24 px-8 lg:grid grid-cols-3 gap-2">
                 <div class="col-span-1">
-                    <img class="object-cover h-64" src="{{ asset('images/it.jpg') }}" alt="Information Technology">
+                    <img class="object-cover h-64 rounded-full" src="{{ asset('images/it.jpg') }}" alt="Information Technology">
                 </div>
                 <div class="col-span-2">
                     <p class="py-2">
@@ -66,7 +73,7 @@
                     </p>
                 </div>
                 <div class="col-span-1">
-                    <img class="object-cover h-64 float-right" src="{{ asset('images/export.jpg') }}" alt="Export and Import">
+                    <img class="object-cover h-64 float-right rounded-full" src="{{ asset('images/export.jpg') }}" alt="Export and Import">
                 </div>
             </div>
         </div>
@@ -75,7 +82,7 @@
             <div class="text-center text-2xl font-medium py-6">AgriBusiness</div>
             <div class="lg:px-24 px-8 lg:grid grid-cols-3 gap-2">
                 <div class="col-span-1">
-                    <img class="object-cover h-64" src="{{ asset('images/agribusiness-2.jpg') }}" alt="AgricBusiness">
+                    <img class="object-cover h-64 rounded-full" src="{{ asset('images/agribusiness-2.jpg') }}" alt="AgricBusiness">
                 </div>
                 <div class="col-span-2">
                     <p class="py-2">
