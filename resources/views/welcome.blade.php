@@ -12,7 +12,7 @@
     <!-- Body contents  -->
     <div class="pt-8 pb-5">
         <!-- About Us  -->
-        <div id="about-us" class="lg:px-24 px-8">
+        <div id="about-us" class="lg:px-24 px-8 mt-8">
             <!-- logo  -->
             <div>
                 <img class="w-48 mx-auto" src="{{ asset('images/bukarng.png') }}" alt="Bukar Ng Logo">
@@ -31,7 +31,7 @@
             </div>
         </div>
         <!-- Information Technology  -->
-        <div id="information-technology" class="bg-gray-100 mt-6 py-4">
+        <div id="information-technology" class="bg-gray-100 mt-8 py-4">
             <div class="text-center text-2xl font-medium py-6">Information Technology</div>
             <div class="lg:px-24 px-8 lg:grid grid-cols-3 gap-2">
                 <div class="col-span-1">
@@ -51,7 +51,7 @@
             </div>
         </div>
         <!-- Import and Export  -->
-        <div id="import-export" class="mt-4 py-4">
+        <div id="import-export" class="mt-8 py-4">
             <div class="text-center text-2xl font-medium py-6">Export and Import</div>
             <div class="lg:px-24 px-8 lg:grid grid-cols-3 gap-2">
                 <div class="col-span-2">
@@ -71,7 +71,7 @@
             </div>
         </div>
         <!-- AgriBusiness  -->
-        <div id="agri-business" class="bg-gray-100 mt-6 py-4">
+        <div id="agri-business" class="bg-gray-100 mt-8 py-4">
             <div class="text-center text-2xl font-medium py-6">AgriBusiness</div>
             <div class="lg:px-24 px-8 lg:grid grid-cols-3 gap-2">
                 <div class="col-span-1">
@@ -91,7 +91,7 @@
             </div>
         </div>
         <!-- Contact Us  -->
-        <div id="contact-us" class="mt-6 py-4">
+        <div id="contact-us" class="mt-8 py-4">
             <div class="text-center text-2xl font-medium py-6">Contact Us</div>
             <div class="lg:px-24 px-8">
                 <div class="text-left">

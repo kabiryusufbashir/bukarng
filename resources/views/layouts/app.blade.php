@@ -15,24 +15,24 @@
         <div id="navDesktop" class="z-40 fixed bg-gray-800 w-full lg:grid grid-cols-5 gap-3 shadow lg:px-24 px-8 py-5 flex justify-between items-center">
             <div class="flex justify-between w-full items-center">
                 <div id="menu" class="lg:hidden cursor-pointer lg:ml-auto">
-                    <svg class="w-10 h-10" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+                    <svg class="w-5 h-5" fill="white" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
                 </div>
                 <div class="">
                     <a href="#">
                         <div class="lg:col-span-1">
-                            <img class="w-14 lg:w-12 lg:ml-0 rounded-full" src="{{ asset('images/bukarng.png') }}" alt="Bukar Ng logo">
+                            <img class="w-7 lg:w-12 lg:ml-0 rounded-full" src="{{ asset('images/bukarng.png') }}" alt="Bukar Ng logo">
                         </div>
                     </a>
                 </div>
             </div>
             <div class="lg:col-span-4 hidden lg:block">
                 <nav class="lg:flex justify-between list-none uppercase font-medium text-white">
-                    <li class="py-1 hover:text-blue-400"><a href="#">Home</a></li>
-                    <li class="py-1 hover:text-blue-400"><a href="#">About Us</a></li>
-                    <li class="py-1 hover:text-blue-400"><a href="#">Information Technology</a></li>
-                    <li class="py-1 hover:text-blue-400"><a href="#">Import & Export</a></li>
-                    <li class="py-1 hover:text-blue-400"><a href="#">AgriBusiness</a></li>
-                    <li class="py-1 hover:text-blue-400"><a href="#">Contact Us</a></li>
+                    <li class="py-1 hover:text-blue-400"><a href="/">Home</a></li>
+                    <li class="py-1 hover:text-blue-400"><a href="#about-us">About Us</a></li>
+                    <li class="py-1 hover:text-blue-400"><a href="#information-technology">Information Technology</a></li>
+                    <li class="py-1 hover:text-blue-400"><a href="#import-export">Import & Export</a></li>
+                    <li class="py-1 hover:text-blue-400"><a href="#agri-business">AgriBusiness</a></li>
+                    <li class="py-1 hover:text-blue-400"><a href="#contact-us">Contact Us</a></li>
                 </nav>
             </div>
         </div>
@@ -48,7 +48,7 @@
                 </li>
                 <hr>
                 <li class="py-3 px-8">
-                    <a href="#" class="flex justify-between items-center">
+                    <a href="#about-us" class="flex justify-between items-center">
                         <span>About Us</span>
                         &nbsp;&nbsp;
                         <span><i class="fa-solid fa-building text-2xl"></i></span>
@@ -56,7 +56,7 @@
                 </li>
                 <hr>
                 <li class="py-3 px-8">
-                    <a href="#" class="flex justify-between items-center">
+                    <a href="#information-technology" class="flex justify-between items-center">
                         <span>Information Technology</span>
                         &nbsp;&nbsp;
                         <span><i class="fa-solid fa-person-circle-question text-2xl"></i></span>
@@ -65,7 +65,7 @@
                 </li>
                 <hr>
                 <li class="py-3 px-8">
-                    <a href="#" class="flex justify-between items-center">
+                    <a href="#import-export" class="flex justify-between items-center">
                         <span>Import & Export</span>
                         &nbsp;&nbsp;
                         <span><i class="fa-solid fa-person-circle-question text-2xl"></i></span>
@@ -74,7 +74,7 @@
                 </li>
                 <hr>
                 <li class="py-3 px-8">
-                    <a href="#" class="flex justify-between border-b-1 items-center">
+                    <a href="#agri-business" class="flex justify-between border-b-1 items-center">
                         <span>AgriBusiness</span>
                         &nbsp;&nbsp;
                         <span><i class="fa-solid fa-briefcase text-2xl"></i></span>
@@ -82,23 +82,7 @@
                 </li>
                 <hr>
                 <li class="py-3 px-8">
-                    <a href="#" class="flex justify-between border-b-1 items-center">
-                        <span>Blog</span>
-                        &nbsp;&nbsp;
-                        <span><i class="fa-brands fa-blogger-b text-2xl"></i></span>
-                    </a>
-                </li>
-                <hr>
-                <li class="py-3 px-8">
-                    <a href="#" class="flex justify-between items-center">
-                        <span>Log In</span>
-                        &nbsp;&nbsp;
-                        <span><i class="fa-solid fa-house-lock text-2xl"></i></span>
-                    </a>
-                </li>
-                <hr>
-                <li class="py-3 px-8">
-                    <a href="#" class="flex justify-between items-center">
+                    <a href="#contact-us" class="flex justify-between items-center">
                         <span>Contact Us</span>
                         &nbsp;&nbsp;
                         <span><i class="fa-solid fa-headset text-2xl"></i></span>
@@ -141,29 +125,29 @@
                                 </a>
                                 </li>
                                 <li class="py-1 hover:text-blue-400">
-                                    <a class="flex items-center py-1" href="#">
+                                    <a class="flex items-center py-1" href="#about-us">
                                         <span>About Us</span>
                                     </a>
                                 </li>
                                 <li class="py-1 hover:text-blue-400">
-                                    <a class="flex items-center py-1" href="#">
+                                    <a class="flex items-center py-1" href="#information-technology">
                                         <span>Information Technology</span>
                                     </a>
                                 </li>
                                 <li class="py-1 hover:text-blue-400">
-                                    <a class="flex items-center py-1" href="#">
+                                    <a class="flex items-center py-1" href="#import-export">
                                         <span>Import & Export</span>
                                     </a>
                                 </li>
                             </div>
                             <div>
                                 <li class="py-1 hover:text-blue-400">
-                                    <a class="flex items-center py-1" href="#">
+                                    <a class="flex items-center py-1" href="#agri-business">
                                         <span>AgriBusiness</span>
                                     </a>
                                 </li>
                                 <li class="py-1 hover:text-blue-400">
-                                    <a class="flex items-center py-1" href="#">
+                                    <a class="flex items-center py-1" href="#contact-us">
                                         <span>Contact Us</span>
                                     </a>
                                 </li>
@@ -206,9 +190,10 @@
             <div class="py-7 text-center sm:text-sm bg-gray-800 text-white">
                 <footer>
                     Designed & Developed by Bitcags<br>
-                    Bukar Ng Ltg Copyright © 2019-@php echo date('Y') @endphp All Rights Reserved 
+                    Bukar Ng Ltg Copyright © @php echo date('Y') @endphp All Rights Reserved 
                 </footer>
             </div>
         </div>
+        <script src="{{ asset('js/main.js') }}"></script>
     </body>
 </html>
