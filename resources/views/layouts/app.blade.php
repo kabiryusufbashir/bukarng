@@ -114,7 +114,7 @@
         <!-- End of Body Content  -->
         <!-- Footer  -->
         <div class="relative top-24">
-            <div id="footer" class=" bg-gray-500 py-12 px-8 lg:px-24 lg:grid grid-cols-5 gap-8 text-white">
+            <div id="footer" class=" bg-gray-900 py-12 px-8 lg:px-24 lg:grid grid-cols-5 gap-8 text-white">
                 <div class="col-span-2">
                     <div>
                         <img class="w-28 mx-auto lg:mx-0 mb-6 rounded" src="{{ asset('images/bukarng.png') }}" alt="Bukar Ng Ltd">
@@ -124,9 +124,9 @@
                         </p>
                     </div>
                     <div class="mt-4">
-                        <h1 class="text-3xl font-bold mb-4">Vision</h1>
+                        <h1 class="text-3xl font-bold mb-4">About Us</h1>
                         <p class="py-1 lg:w-2/3 w-full text-justify">
-                            Bukar's Ng Ltd vision is to nurture developed and resilient communities of resourceful, independent, educated women, girls and boys with good vision and services. Reduce poverty and Sexual/Gender Based Violence
+                            M Bukar Nig Ltd is a General merchandize company with vast knowledge in Information Technology, Contracts, Import and Export, AgricBusiness, etc
                         </p>
                     </div>
                 </div>
