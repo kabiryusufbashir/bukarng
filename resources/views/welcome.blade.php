@@ -11,7 +11,7 @@
         <div class="absolute lg:top-64 top-52">
             <div class="text-center lg:w-2/3 mx-auto text-white lg:text-3xl text-xl font-extrabold">
                 <p>
-                    M Bukar Nig Ltd is a General merchandize company with vast knowledge in Information Technology, Contracts, Import and Export, AgricBusiness, etc
+                    M Bukar Nig Ltd is a General merchandize company with vast knowledge in Information Technology, Contracts, Import and Export, Agribusiness and many others
                 </p>
             </div>
         </div>
@@ -27,13 +27,13 @@
             <!-- About Us  -->
             <div class="text-center lg:w-2/3 mx-auto">
                 <p>
-                    M Bukar Nig Ltd is a General merchandize company with vast knowledge in Information Technology, Contracts, Import and Export, AgricBusiness, etc
+                    M Bukar Nig Ltd is a General merchandize company with vast knowledge in Information Technology, Contracts, Import and Export, Agribusiness and many others
                 </p>
                 <p>
-                    Our team of professionals will handle all the necessary documentation, delivery requirements, and compliance checks for your shipments. Whether it's air or ocean freight forwarding, Tech Port Trading has all the resources needed to make imports and exports seem easy 
+                    Our team of professionals will handle all the necessary documentation, delivery requirements, and compliance checks for your shipments. Whether it's air or ocean freight forwarding, M Bukar Nig Ltd has all the resources needed to make imports and exports easy 
                 </p>
                 <p>
-                    M Bukar Nig Ltd tends to build a very trust with our esteemed customers. 
+                    M Bukar Nig Ltd is geared towards building trust between itself and its clients ensuring that they get the best service delivery available in the market  
                 </p>
             </div>
         </div>
@@ -59,17 +59,17 @@
         </div>
         <!-- Import and Export  -->
         <div id="import-export" class="mt-8 py-4">
-            <div class="text-center text-2xl font-medium py-6">Export and Import</div>
+            <div class="text-center text-2xl font-medium py-6">Import and Export</div>
             <div class="lg:px-24 px-8 lg:grid grid-cols-3 gap-2">
                 <div class="col-span-2">
                     <p class="py-2">
-                        It is a good bet to claim that you have a decent idea of what Import and Export are about. Importing and Exporting supports the development of national economies and extends the global market.
+                        M Bukar Nig Ltd is a General merchandize company with vast knowledge in Information Technology, Contracts, Import and Export, Agribusiness and many others
                     </p>
                     <p class="py-2">
-                        It is a good bet to claim that you have a decent idea of what Import and Export are about. Importing and Exporting supports the development of national economies and extends the global market.
+                        Our team of professionals will handle all the necessary documentation, delivery requirements, and compliance checks for your shipments. Whether it's air or ocean freight forwarding, M Bukar Nig Ltd has all the resources needed to make imports and exports easy 
                     </p>
                     <p class="py-2">
-                        It is a good bet to claim that you have a decent idea of what Import and Export are about. Importing and Exporting supports the development of national economies and extends the global market.
+                        M Bukar Nig Ltd is geared towards building trust between itself and its clients ensuring that they get the best service delivery available in the market  
                     </p>
                 </div>
                 <div class="col-span-1">
@@ -82,17 +82,17 @@
             <div class="text-center text-2xl font-medium py-6">AgriBusiness</div>
             <div class="lg:px-24 px-8 lg:grid grid-cols-3 gap-2">
                 <div class="col-span-1">
-                    <img class="object-cover h-64 rounded-full" src="{{ asset('images/agribusiness-2.jpg') }}" alt="AgricBusiness">
+                    <img class="object-cover h-64 rounded-full" src="{{ asset('images/agribusiness-2.jpg') }}" alt="Agribusiness">
                 </div>
                 <div class="col-span-2">
                     <p class="py-2">
-                        The importance of Information Technology in business is vast. It helps each and every business sector in automating its processes and systems to target objectives, generate revenue, and reduce the inefficiency of their work. The value of Business information technology is increasing day by day in areas such as commercial transactions, to fulfill the demands of customers and regulatory requirements
+                        M Bukar Nig Ltd is a General merchandize company with vast knowledge in Information Technology, Contracts, Import and Export, Agribusiness and many others
                     </p>
                     <p class="py-2">
-                        The purpose behind Business Information Technology is to fulfill the everyday growing needs of industries and to fulfill the growing expectations of customers of every field
+                        Our team of professionals will handle all the necessary documentation, delivery requirements, and compliance checks for your shipments. Whether it's air or ocean freight forwarding, M Bukar Nig Ltd has all the resources needed to make imports and exports easy 
                     </p>
                     <p class="py-2">
-                        To get success in any business field, there are two non-tangible things including relevant knowledge and information are very important. Business information technology effectively combines management skills and communication technology with the competency of information. With a sound communication system and information, the company can minimize its risks, strengthen its system and give support to its business strategies
+                        M Bukar Nig Ltd is geared towards building trust between itself and its clients ensuring that they get the best service delivery available in the market  
                     </p>
                 </div>
             </div>
@@ -118,11 +118,11 @@
                             </div>
                             <div class="mb-3 flex">
                                 <span><i class="fa-solid fa-envelope"></i></span>
-                                <span class="ml-3"><a href="mailto:info@bukarngltd.com">info@bukarngltd.com</a></span>
+                                <span class="ml-3"><a href="mailto:info@bukarngltd.com">info@mbukar.ng</a></span>
                             </div>
                             <div class="mb-3 flex">
                                 <span><i class="fa-solid fa-globe"></i></span>
-                                <span class="ml-3"><a href="https://bukarngltd.com">www.bukarngltd.com</a></span>
+                                <span class="ml-3"><a href="https://bukarngltd.com">www.mbukar.ng</a></span>
                             </div>
                         </div>
                         <div class="col-span-3">

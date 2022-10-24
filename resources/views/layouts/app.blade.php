@@ -110,7 +110,7 @@
                     <div class="mt-4">
                         <h1 class="text-3xl font-bold mb-4">About Us</h1>
                         <p class="py-1 lg:w-2/3 w-full text-justify">
-                            M Bukar Nig Ltd is a General merchandize company with vast knowledge in Information Technology, Contracts, Import and Export, AgricBusiness, etc
+                            M Bukar Nig Ltd is a General merchandize company with vast knowledge in Information Technology, Contracts, AgricBusiness, Import-Export and General Services
                         </p>
                     </div>
                 </div>
